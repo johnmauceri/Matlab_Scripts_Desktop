@@ -1,0 +1,30 @@
+change
+
+lines = houghlines(BW,T,R,P,'FillGap',5,'MinLength',7); -> lines = houghlines(BW,T,R,P,'FillGap',5,'MinLength',300);
+
+
+add
+
+            min_angl = 90;
+            max_angl = 0;
+
+add
+                        if (angl > max_angl)
+                            max_angl = angl;
+                            xy_long_max = xy;
+                        end
+                        if (angl < min_angl)
+                            min_angl = angl;
+                            xy_long_min = xy;
+                        end
+
+add
+	   max_angl_err = max_angl - min_angl;
+           if (DEBUG==2) if (max_angl > 0)  plot(xy_long_max(:,1),xy_long_max(:,2),'LineWidth',2,'Color','yellow'); end; end
+           if (DEBUG==2) if (min_angl < 90) plot(xy_long_min(:,1),xy_long_min(:,2),'LineWidth',2,'Color','red'); end; end
+  
+
+
+            
+            
+

@@ -1,0 +1,117 @@
+<HEAD>
+<BASE href="file:///C:/Users/John%20Mauceri/AppData/Local/Temp/matlab_comparison_report_8549671442899832298.html" />
+
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type><TITLE></TITLE>
+<STYLE type=text/css>
+
+pre {
+
+  display:inline;
+
+}
+
+.diffnomatch {
+
+  background: #ffdddd;
+
+}
+
+.right {
+
+  background: #ddffdd;
+
+}
+
+.left {
+
+  background: #ddffdd;
+
+}
+
+.diffsoft {
+
+  color: #888;
+
+}
+
+.diffskip {
+
+  color: #888;
+
+  background: #e0e0e0;
+
+}
+
+.bold {
+
+  font-weight:bold;
+
+}
+
+.merged {
+
+  background-color: #c0c0c0;
+
+}
+
+</STYLE>
+</HEAD>
+<BODY style="ZOOM: 1">
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD></TD>
+<TD><A id=leftFileLink class=bold>load_txt_files_Mstudy_location.m</A></TD>
+<TD><A id=rightFileLink class=bold>load_txt_files_Mstudy_location_MLO90toCC.m</A></TD></TR>
+<TR>
+<TD></TD>
+<TD>\\JOHNMAUCERI\Users\John Mauceri\DICOM_TEST\MathlabScripts\load_txt_files_Mstudy_location.m</TD>
+<TD>\\JOHNMAUCERI\Users\John Mauceri\DICOM_TEST\MathlabScripts\load_txt_files_Mstudy_location_MLO90toCC.m</TD></TR>
+<TR>
+<TD></TD>
+<TD>Fri Jun 19 09:06:17 PDT 2015</TD>
+<TD>Tue Jun 16 11:44:53 PDT 2015</TD></TR>
+<TR>
+<TD><PRE>    </PRE></TD>
+<TD><PRE>                                                                                  </PRE></TD>
+<TD><PRE>                                                                                </PRE></TD></TR></TBODY></TABLE>3 differences found. Use the toolstrip buttons to navigate to them.
+<DIV id=diffstart><BR><PRE><DIV id=ignorediv><A id=ignorelink></A></DIV>
+                                                                      <SPAN class=diffskip>[216 unmodified lines hidden]</SPAN>
+<SPAN class=nodiff data-right-line="217" data-left-line="217"><A>217</A>                 y_nip = Iby(find(Ibx==x_nip));                                   .                 y_nip = Iby(find(Ibx==x_nip));                                   <SPAN><A>217</A></SPAN></SPAN>
+<SPAN class=nodiff data-right-line="218" data-left-line="218"><A>218</A>                 y_nip = (max(y_nip) + min(y_nip)) / 2;                           .                 y_nip = (max(y_nip) + min(y_nip)) / 2;                           <SPAN><A>218</A></SPAN></SPAN>
+<SPAN class=nodiff data-right-line="219" data-left-line="219"><A>219</A>                 xmin = min(Ibx); xmax = max(Ibx); ymin = min(Iby); ymax = max(Ib .                 xmin = min(Ibx); xmax = max(Ibx); ymin = min(Iby); ymax = max(Ib <SPAN><A>219</A></SPAN></SPAN>
+<DIV onclick="select('diff0')" id=diff0><SPAN class=diffLine data-right-line="220" data-left-line="220"><A>220</A> <SPAN class=diffnomatch><SPAN style="BACKGROUND: #ffb4b4"> </SPAN>                                                                                x <SPAN style="BACKGROUND: #ffb4b4">            </SPAN>                                                                    </SPAN> <SPAN><A>220</A></SPAN></SPAN>
+<SPAN class=diffLine data-right-line="221" data-left-line="221"><A>221</A> <SPAN class=diffnomatch>                <SPAN style="BACKGROUND: #ffb4b4">y_spaceM(6)</SPAN> = <SPAN style="BACKGROUND: #ffb4b4">ymax; y_spaceM</SPAN>(<SPAN style="BACKGROUND: #ffb4b4">5) = ymax - </SPAN>((<SPAN style="BACKGROUND: #ffb4b4">ymax</SPAN> - <SPAN style="BACKGROUND: #ffb4b4">y_nip</SPAN>)/<SPAN style="BACKGROUND: #ffb4b4">2</SPAN>.<SPAN style="BACKGROUND: #ffb4b4">5</SPAN>)<SPAN style="BACKGROUND: #ffb4b4">;</SPAN> <SPAN style="BACKGROUND: #ffb4b4">y</SPAN> x                 <SPAN style="BACKGROUND: #ffb4b4">y_space</SPAN> = <SPAN style="BACKGROUND: #ffb4b4">[</SPAN>(<SPAN style="BACKGROUND: #ffb4b4">ymin:</SPAN>((<SPAN style="BACKGROUND: #ffb4b4">y_nip</SPAN> - <SPAN style="BACKGROUND: #ffb4b4">ymin + 1</SPAN>)<SPAN style="BACKGROUND: #ffb4b4"> </SPAN>/<SPAN style="BACKGROUND: #ffb4b4"> 3</SPAN>.<SPAN style="BACKGROUND: #ffb4b4">0</SPAN>)<SPAN style="BACKGROUND: #ffb4b4">:</SPAN> <SPAN style="BACKGROUND: #ffb4b4">y_nip</SPAN>) (<SPAN style="BACKGROUND: #ffb4b4">y_nip:</SPAN>(<SPAN style="BACKGROUND: #ffb4b4">(</SPAN>yma</SPAN> <SPAN><A>221</A></SPAN></SPAN>
+<SPAN class=diffLine data-right-line="222" data-left-line="222"><A>222</A> <SPAN class=diffnomatch>                <SPAN style="BACKGROUND: #ffb4b4">y_spaceM</SPAN>(<SPAN style="BACKGROUND: #ffb4b4">1</SPAN>) = <SPAN style="BACKGROUND: #ffb4b4">ymin</SPAN>;<SPAN style="BACKGROUND: #ffb4b4"> y_spaceM(2) = ymin + ((y_nip - ymin)/2.5); y</SPAN> x                 <SPAN style="BACKGROUND: #ffb4b4">y_space</SPAN>(<SPAN style="BACKGROUND: #ffb4b4">7</SPAN>) = <SPAN style="BACKGROUND: #ffb4b4">ymax</SPAN>;                                              </SPAN> <SPAN><A>222</A></SPAN></SPAN>
+</DIV><SPAN class=nodiff data-right-line="223" data-left-line="223"><A>223</A>                                                                                  .                                                                                  <SPAN><A>223</A></SPAN></SPAN>
+<DIV onclick="select('diff1')" id=diff1><SPAN class=diffLine data-right-line="224" data-left-line="224"><A>224</A> <SPAN class=diffnomatch>                figure; hold on; plot(Ibx, Iby, '.', x_nip, y_nip, 'o', xmax, <SPAN style="BACKGROUND: #ffb4b4">y_</SPAN> x                 figure; hold on; plot(Ibx, Iby, '.', x_nip, y_nip, 'o', xmax, <SPAN style="BACKGROUND: #ffb4b4">y_</SPAN></SPAN> <SPAN><A>224</A></SPAN></SPAN>
+</DIV><SPAN class=nodiff data-right-line="225" data-left-line="225"><A>225</A>                                                                                  .                                                                                  <SPAN><A>225</A></SPAN></SPAN>
+<SPAN class=nodiff data-right-line="226" data-left-line="226"><A>226</A>                 %Fix error here after rotate MLO needs to be recalculated        .                 %Fix error here after rotate MLO needs to be recalculated        <SPAN><A>226</A></SPAN></SPAN>
+<SPAN class=nodiff data-right-line="227" data-left-line="227"><A>227</A>                 pix_distx = int16(10 * cmfn(i) / ps(1));                         .                 pix_distx = int16(10 * cmfn(i) / ps(1));                         <SPAN><A>227</A></SPAN></SPAN>
+<SPAN class=nodiff data-right-line="228" data-left-line="228"><A>228</A>                 pix_disty = int16(10 * cmfn(i) / ps(2));                         .                 pix_disty = int16(10 * cmfn(i) / ps(2));                         <SPAN><A>228</A></SPAN></SPAN>
+<SPAN class=nodiff data-right-line="229" data-left-line="229"><A>229</A>                                                                                  .                                                                                  <SPAN><A>229</A></SPAN></SPAN>
+<DIV onclick="select('diff2')" id=diff2><SPAN class=diffLine data-right-line="230" data-left-line="230"><A>230</A> <SPAN class=diffnomatch>                <SPAN style="BACKGROUND: #ffb4b4">if</SPAN> <SPAN style="BACKGROUND: #ffb4b4">(rl)</SPAN>                                                          x                 <SPAN style="BACKGROUND: #ffb4b4">%right</SPAN> <SPAN style="BACKGROUND: #ffb4b4">and left</SPAN>                                                 </SPAN> <SPAN><A>230</A></SPAN></SPAN>
+<SPAN class=diffLine data-right-line="231" data-left-line="231"><A>231</A> <SPAN class=diffnomatch><SPAN style="BACKGROUND: #ffb4b4">                    %right</SPAN>                                                       x <SPAN style="BACKGROUND: #ffb4b4">                if (location(i) == 12) ybase = y_space(7); end;</SPAN>                 </SPAN> <SPAN><A>231</A></SPAN></SPAN>
+<SPAN class=diffLine data-right-line="232" data-left-line="232"><A>232</A> <SPAN class=diffnomatch><SPAN style="BACKGROUND: #ffb4b4">                    </SPAN>if ((location(i) == <SPAN style="BACKGROUND: #ffb4b4">10</SPAN>) || (location(i) == 11)) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_sp</SPAN> x <SPAN style="BACKGROUND: #ffb4b4">                </SPAN>if ((location(i) == <SPAN style="BACKGROUND: #ffb4b4">1</SPAN>) || (location(i) == 11)) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_space</SPAN>(6</SPAN> <SPAN><A>232</A></SPAN></SPAN>
+<SPAN class=diffLine data-right-line="233" data-left-line="233"><A>233</A> <SPAN class=diffnomatch><SPAN style="BACKGROUND: #ffb4b4">                    </SPAN>if ((location(i) ==<SPAN style="BACKGROUND: #ffb4b4">  9</SPAN>) || (location(i) == <SPAN style="BACKGROUND: #ffb4b4">12</SPAN>)) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_sp</SPAN> x <SPAN style="BACKGROUND: #ffb4b4">                </SPAN>if ((location(i) ==<SPAN style="BACKGROUND: #ffb4b4"> 2</SPAN>) || (location(i) == <SPAN style="BACKGROUND: #ffb4b4">10</SPAN>)) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_space</SPAN>(5</SPAN> <SPAN><A>233</A></SPAN></SPAN>
+<SPAN class=diffLine data-right-line="234" data-left-line="234"><A>234</A> <SPAN class=diffnomatch><SPAN style="BACKGROUND: #ffb4b4">                    </SPAN>if ((location(i) ==<SPAN style="BACKGROUND: #ffb4b4">  1</SPAN>) || (location(i) ==<SPAN style="BACKGROUND: #ffb4b4">  8</SPAN>)) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_sp</SPAN> x <SPAN style="BACKGROUND: #ffb4b4">                </SPAN>if ((location(i) ==<SPAN style="BACKGROUND: #ffb4b4"> 3</SPAN>) || (location(i) ==<SPAN style="BACKGROUND: #ffb4b4"> 9</SPAN>)) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_space</SPAN>(4)</SPAN> <SPAN><A>234</A></SPAN></SPAN>
+<SPAN class=diffLine data-right-line="235" data-left-line="235"><A>235</A> <SPAN class=diffnomatch><SPAN style="BACKGROUND: #ffb4b4">                    </SPAN>if ((location(i) ==<SPAN style="BACKGROUND: #ffb4b4">  2</SPAN>) || (location(i) ==<SPAN style="BACKGROUND: #ffb4b4">  7</SPAN>)) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_sp</SPAN> x <SPAN style="BACKGROUND: #ffb4b4">                </SPAN>if ((location(i) ==<SPAN style="BACKGROUND: #ffb4b4"> 4</SPAN>) || (location(i) ==<SPAN style="BACKGROUND: #ffb4b4"> 8</SPAN>)) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_space</SPAN>(3)</SPAN> <SPAN><A>235</A></SPAN></SPAN>
+<SPAN class=diffLine data-right-line="236" data-left-line="236"><A>236</A> <SPAN class=diffnomatch><SPAN style="BACKGROUND: #ffb4b4">                    </SPAN>if ((location(i) ==<SPAN style="BACKGROUND: #ffb4b4">  3</SPAN>) || (location(i) ==<SPAN style="BACKGROUND: #ffb4b4">  6</SPAN>)) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_sp</SPAN> x <SPAN style="BACKGROUND: #ffb4b4">                </SPAN>if ((location(i) ==<SPAN style="BACKGROUND: #ffb4b4"> 5</SPAN>) || (location(i) ==<SPAN style="BACKGROUND: #ffb4b4"> 7</SPAN>)) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_space</SPAN>(2)</SPAN> <SPAN><A>236</A></SPAN></SPAN>
+<SPAN class=diffLine data-right-line="237" data-left-line="237"><A>237</A> <SPAN class=diffnomatch><SPAN style="BACKGROUND: #ffb4b4">                    </SPAN>if (<SPAN style="BACKGROUND: #ffb4b4">(</SPAN>location(i) ==<SPAN style="BACKGROUND: #ffb4b4">  4)</SPAN> <SPAN style="BACKGROUND: #ffb4b4">|| (location(i</SPAN>) <SPAN style="BACKGROUND: #ffb4b4">==  5)) </SPAN>ybase = <SPAN style="BACKGROUND: #ffb4b4">y_sp</SPAN> x <SPAN style="BACKGROUND: #ffb4b4">                </SPAN>if (location(i) == <SPAN style="BACKGROUND: #ffb4b4">6</SPAN>) ybase = <SPAN style="BACKGROUND: #ffb4b4">y_space</SPAN>(1); end;                  </SPAN> <SPAN><A>237</A></SPAN></SPAN>
+<SPAN class=diffLine data-right-line="237" data-left-line="238"><A>238</A> <SPAN class="diffnew left">                else                                                             &lt; </SPAN><SPAN class=diffold>                                                                                </SPAN> <SPAN class=diffsoft>  -</SPAN></SPAN>
+<SPAN class=diffLine data-right-line="237" data-left-line="239"><A>239</A> <SPAN class="diffnew left">                    %left                                                        &lt; </SPAN><SPAN class=diffold>                                                                                </SPAN> <SPAN class=diffsoft>  -</SPAN></SPAN>
+<SPAN class=diffLine data-right-line="237" data-left-line="240"><A>240</A> <SPAN class="diffnew left">                    if ((location(i) ==  1) || (location(i) ==  2)) ybase = y_sp &lt; </SPAN><SPAN class=diffold>                                                                                </SPAN> <SPAN class=diffsoft>  -</SPAN></SPAN>
+<SPAN class=diffLine data-right-line="237" data-left-line="241"><A>241</A> <SPAN class="diffnew left">                    if ((location(i) ==  3) || (location(i) == 12)) ybase = y_sp &lt; </SPAN><SPAN class=diffold>                                                                                </SPAN> <SPAN class=diffsoft>  -</SPAN></SPAN>
+<SPAN class=diffLine data-right-line="237" data-left-line="242"><A>242</A> <SPAN class="diffnew left">                    if ((location(i) ==  4) || (location(i) == 11)) ybase = y_sp &lt; </SPAN><SPAN class=diffold>                                                                                </SPAN> <SPAN class=diffsoft>  -</SPAN></SPAN>
+<SPAN class=diffLine data-right-line="237" data-left-line="243"><A>243</A> <SPAN class="diffnew left">                    if ((location(i) ==  5) || (location(i) == 10)) ybase = y_sp &lt; </SPAN><SPAN class=diffold>                                                                                </SPAN> <SPAN class=diffsoft>  -</SPAN></SPAN>
+<SPAN class=diffLine data-right-line="237" data-left-line="244"><A>244</A> <SPAN class="diffnew left">                    if ((location(i) ==  6) || (location(i) ==  9)) ybase = y_sp &lt; </SPAN><SPAN class=diffold>                                                                                </SPAN> <SPAN class=diffsoft>  -</SPAN></SPAN>
+<SPAN class=diffLine data-right-line="237" data-left-line="245"><A>245</A> <SPAN class="diffnew left">                    if ((location(i) ==  7) || (location(i) ==  8)) ybase = y_sp &lt; </SPAN><SPAN class=diffold>                                                                                </SPAN> <SPAN class=diffsoft>  -</SPAN></SPAN>
+<SPAN class=diffLine data-right-line="237" data-left-line="246"><A>246</A> <SPAN class="diffnew left">                end                                                              &lt; </SPAN><SPAN class=diffold>                                                                                </SPAN> <SPAN class=diffsoft>  -</SPAN></SPAN>
+</DIV><SPAN class=nodiff data-right-line="238" data-left-line="247"><A>247</A>                 line([x_nip xmax],[y_nip ybase]);                                .                 line([x_nip xmax],[y_nip ybase]);                                <SPAN><A>238</A></SPAN></SPAN>
+<SPAN class=nodiff data-right-line="239" data-left-line="248"><A>248</A>                                                                                  .                                                                                  <SPAN><A>239</A></SPAN></SPAN>
+<SPAN class=nodiff data-right-line="240" data-left-line="249"><A>249</A>                 theta = acos((xmax - x_nip) / pdist([x_nip y_nip; xmax ybase])); .                 theta = acos((xmax - x_nip) / pdist([x_nip y_nip; xmax ybase])); <SPAN><A>240</A></SPAN></SPAN>
+                                                                      <SPAN class=diffskip>[85 unmodified lines hidden]</SPAN>
+</PRE></DIV><A id=bottom>
+<P>Number of matching lines: 313</P>
+<P>Number of unmatched lines in left file: 21</P>
+<P>Number of unmatched lines in right file: 12</P></A></BODY>
