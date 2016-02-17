@@ -1,6 +1,6 @@
 clear;
 %close all
-%test
+
 DEBUG = 0;
 
 for db=5
